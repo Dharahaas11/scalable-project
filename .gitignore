@@ -1,0 +1,24 @@
+# RetailRocket data must be downloaded separately.
+data/*.csv
+
+# Generated analytical outputs.
+# Results and graph files are included because they are useful for project evidence.
+# Do not upload very large raw stream captures.
+results/*.jsonl
+
+# Python, Spark, environments and local settings.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+.sparkStaging/
+metastore_db/
+derby.log
+
+# Credentials and raw stream captures.
+*.pem
+*.key
+*credentials*
