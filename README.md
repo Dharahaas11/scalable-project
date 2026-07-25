@@ -98,8 +98,3 @@ speedup versus workers.
 ## Repository
 
 GitHub repository: `https://github.com/Dharahaas11/scalable-project.git`
-
-Commit source code, documentation, dependency metadata, and small representative
-outputs if required. Do **not** commit the full RetailRocket dataset, AWS
-credentials, Learner Lab tokens, large Spark output directories, or generated
-raw Kinesis captures. The included `.gitignore` helps prevent this.
